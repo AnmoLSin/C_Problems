@@ -5,7 +5,6 @@ int main()
     int i, t, n, k, l, n1, j=1;
     char *a[20];
     char b[20];
-    int flag[20]={0};
     scanf("%d", &t);
     while(t--) {
     scanf("%d", &n);
@@ -16,6 +15,7 @@ int main()
         a[i]=(char *)malloc(sizeof(char)*6);
         scanf("%s",a[i]);
     }
+    int flag[20]={0};
     for(i = 0; i < k; i++)
     {
         scanf("%d", &n1);
